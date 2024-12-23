@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Your Wedding Planner</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fff;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        header {
+            width: 100%;
+            background: rgba(255, 183, 206, 0.956); /* Transparent pink header */
+            color: #050505;
+            padding: 20px 0;
+            min-height: 70px;
+            border-bottom: #77cc6d 3px solid;
+            font-size: large;
+            font-family: 'Cursive', sans-serif;
+        }
+
+        header a {
+            color: #0a0a0a;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            text-align: center;
+            padding: 0;
+            list-style: none;
+        }
+
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header h1 {
+            float: left;
+        }
+
+        section {
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        #portfolio {
+            background: #f4f4f4;
+            padding: 50px 0;
+        }
+
+        #portfolio h2 {
+            color: #ff69b4;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        #portfolio .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        #portfolio .portfolio-item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: left;
+        }
+
+        #portfolio .portfolio-item img {
+            width: 100%;
+            height: 200px; /* Set a fixed height */
+            object-fit: cover; /* Ensure image covers the area without stretching */
+            border-bottom: 1px solid #ddd;
+        }
+
+        #portfolio .portfolio-item h3 {
+            color: #ff69b4;
+            font-size: 24px;
+            margin: 10px;
+        }
+
+        #portfolio .portfolio-item p {
+            color: #555;
+            font-size: 16px;
+            margin: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer .social-media a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer .social-media a:hover {
+            color: #ff69b4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Wedding Planner</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://i.pinimg.com/736x/59/de/9e/59de9e872aa1a2c5ff9443fe1ba5756d.jpg" alt="Wedding 1">
+                    <h3>Elegant Outdoor Wedding</h3>
+                    <p>An enchanting outdoor wedding set in a beautiful garden, featuring elegant décor and a romantic atmosphere.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://i.pinimg.com/736x/e4/5a/e5/e45ae5fec8f6fce029f2dba1d72b8087--ballroom-wedding-wedding-fun.jpg" alt="Wedding 2">
+                    <h3>Classic Ballroom Wedding</h3>
+                    <p>A timeless ballroom wedding with exquisite floral arrangements, luxurious table settings, and a grand ambiance.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://www.mustdo.com/wp-content/uploads/2017/07/Naples-Florida-destination-beach-wedding.jpg" alt="Wedding 3">
+                    <h3>Beachside Destination Wedding</h3>
+                    <p>A picturesque beachside wedding with stunning ocean views, tropical flowers, and a relaxed yet elegant vibe.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://th.bing.com/th/id/OIP.ptHaZgLJIL-dxL2ftO4MqwHaLG?rs=1&pid=ImgDetMain" alt="Wedding 4">
+                    <h3>Vintage Themed Wedding</h3>
+                    <p>A charming vintage themed wedding with antique décor, nostalgic elements, and a cozy atmosphere.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://i.pinimg.com/originals/93/20/cc/9320cc17974c6717ba08bdd2545eaeb8.jpg" alt="Wedding 5">
+                    <h3>Modern Chic Wedding</h3>
+                    <p>A stylish modern wedding with contemporary décor, sleek lines, and a sophisticated feel.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://media-api.xogrp.com/images/1d8213b7-820f-4bd8-831f-d0ee09c302d8" alt="Wedding 6">
+                    <h3>Rustic Barn Wedding</h3>
+                    <p>A rustic barn wedding with charming wooden décor, warm lighting, and a down-to-earth ambiance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+            <p>&copy; 2024 Your Wedding Planner. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Your Wedding Planner</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fff;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            width: 100%;
+            background: rgba(255, 182, 193, 0.8); /* Transparent pink header */
+            color: #010101;
+            padding: 20px 0;
+            min-height: 70px;
+            border-bottom: #ff69b4 3px solid;
+            font-size: large;
+            font-family: 'Cursive', sans-serif;
+            text-align: center;
+        }
+
+        header a {
+            color: #080808;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            text-align: center;
+            padding: 0;
+            list-style: none;
+        }
+
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header h1 {
+            float: left;
+        }
+
+        section {
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        #blog {
+            background: #fff;
+            padding: 50px 0;
+        }
+
+        #blog h2 {
+            color: #850847;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        #blog .blog-posts {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        #blog .post {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 100%;
+            text-align: left;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        #blog .post .photo-collage {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            flex: 1;
+        }
+
+        #blog .post .photo-collage img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        #blog .post:hover .photo-collage img {
+            transform: scale(1.05);
+        }
+
+        #blog .post .text-content {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #blog .post h3 {
+            color: #ff69b4;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        #blog .post p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        #blog .post a {
+            color: #ff69b4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #blog .post a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer .social-media a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer .social-media a:hover {
+            color: #ff69b4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Wedding Planner</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="blog">
+        <div class="container">
+            <h2>Our Blog</h2>
+            <div class="blog-posts">
+                <div class="post">
+                    <div class="photo-collage">
+                        <img src="https://i.pinimg.com/originals/a3/59/05/a35905a31279e5cbe050a759f84bfd79.jpg" alt="Blog post 1">
+                        
+                    </div>
+                    <div class="text-content">
+                        <h3 style="color:#850847">Latest Trends in Wedding Planning</h3>
+                        <p>Discover the newest trends that are taking the wedding world by storm. From unique décor ideas to the latest in bridal fashion...</p>
+                        <a href="blog1.html">Read more</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="photo-collage">
+                        <img src="https://i.pinimg.com/originals/af/a1/1b/afa11b058d4778a231d5344295a5bece.jpg" alt="Blog post 3">
+                       
+                    </div>
+                    <div class="text-content">
+                        <h3 style="color:#850847">Top 10 Tips for a Stress-Free Wedding Day</h3>
+                        <p>Planning a wedding can be stressful, but it doesn't have to be. Follow these top tips to ensure your wedding day goes off without a hitch...</p>
+                        <a href="blog2.html">Read more</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="photo-collage">
+                        <img src="https://i.pinimg.com/originals/e4/5a/e5/e45ae5fec8f6fce029f2dba1d72b8087.jpg" alt="Blog post 5">
+                       
+                    </div>
+                    <div class="text-content">
+                        <h3 style="color:#850847">How to Choose the Perfect Wedding Venue</h3>
+                        <p>Your wedding venue sets the tone for your entire day. Learn how to choose the perfect venue that fits your style and budget...</p>
+                        <a href="blog3.html">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+            <p>&copy; 2024 Your Wedding Planner. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
